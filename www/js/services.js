@@ -6,274 +6,65 @@ angular.module('gooeyApp.services', [])
   // Some fake testing data
   var chats = [{
     id: 0,
-    name: 'Liestiya Pramitasari',
-    lastText: 'Sugeng ambal warsa eki ingkang kaping 20, mugi panjang yuswanipun, tansah taat marang Gusti Kang Murbeng Dumadi, sansaya tresna marang kulawarga, dipunparingi lancar ingkang pados ngelmu, rejeki, kan sisihing raga nggih... mugi punapa kemawon ingkang dipunkarepake saged kapundhut nggih lan mugi tansah dados tiyang ingkang langkung sae.',
+    name: 'Isyana Saraswati',
     status: 'Mahasiswi, 21th',
-    face: 'img/user/tia.jpg',
-    time: 'Minggu 20 Maret 2016    14:23',
-    facebook:'https://www.facebook.com/profile.php?id=100004429064150/',
-    line:'http://line.me/ti/p/~liestiyapramitasari',
-    instagram:'https://www.instagram.com/liestiyapramitasari22/'
+    url: '/media/kor.mp3', 
+    face: 'img/m1.jpg',
+    np: 'Keep Being You'
   }, {
     id: 1,
-    name: 'Eva Fajar Kusuma Pertiwi',
+    name: 'Mnek & Zarra Larsson', 
     lastText: 'Barakallah untuk umur yang semakin berkurang. Diberi kemudahan disetiap langkahnya, kesehatan, diberikan yang terbaik u tuk segala pilihannya. Tambah rajin ibadahnya .',
     status: 'Mahasiswi, 21th',
-    face: 'img/user/eva.jpg',
-    time: 'Senin 21 Maret 2016    13.02',
-    facebook:'https://www.facebook.com/eva.f.pertiwi/',
-    line:'http://line.me/ti/p/~evapertiwi',
-    instagram:'https://www.instagram.com/eva_fkpertiwi/'
+    face: 'img/m2.jpg',
+    np: 'Never Forget You',
   }, {
     id: 2,
-    name: 'Aditya Bagus Nureza',
+    name: 'Rachel Plattern',
     lastText: 'Selamat ulang tahun eki, semoga panjang umur sehat selalu jadi cowok setia. dan semoga langgeng same kakek nenek.. grin emotikon',
     status: 'Mahasiswa, 21th',
-    face: 'img/user/adit.png',
-    time: 'Senin 21 Maret 2016    12.58',
-    facebook:'https://www.facebook.com/rheiza.aditya/',
-    line:'http://line.me/ti/p/~aditya.bn',
-    instagram:'https://www.instagram.com/aditya.bn/'
+    face: 'img/m3.jpg',
+    np: 'Fight Song',
+ 
   }, {
     id: 3,
-    name: 'Bayu Rezki',
+    name: 'Rihanna',
     lastText: 'Hai Ekky, Yaumul Milad semoga dengan bertambahnya usia semakin membuka pikiran, wawasan kmu untuk menjadi mausia yang lebih baik lagi, yang mampu memberikan kesejukan kepada semua orang, yang mampu memposisikan diri untuk selalu menjadi sosok yang dibutuhan orang dalam situasi apapun dan yang paling penting jaga dan tingkatkan amal ibadah',
     status: 'Mahasiswa, 21th',
-    face: 'img/user/bayu.png',
-    time: 'Senin 21 Maret 2016    13.20',
-    facebook:'https://www.facebook.com/bayu.rezki/',
-    line:'http://line.me/ti/p/~bayu.rezki',
-    instagram:'https://www.instagram.com/bayu.rezki/'
+    face: 'img/m4.jpg',
+    np: 'Diamonds',
+
   }, {
     id: 4,
-    name: 'Wuri Noprida Munthe',
+    name: 'Justin Beiber',
     lastText: '"Selamat mengulang hari lahir ki, umur nya berkurng semoga semakin berkah,  segala sesuatu dipermudah sama Allah,semoga semakin dewasa,semakin dekat sama Allah,  rajin ibadahnya,  sayang keluarga, dan bahagiain orng orang yg sayang sama eki, selalu sayang himatif jugaa yee ki. Doa yg terbaiklah buat eki mah, all the best for you"',
     status: 'Mahasiswi, 19th',
-    face: 'img/user/wuri.png',
-    time: 'Senin 21 Maret 2016    13.40',
-    facebook:'https://www.facebook.com/woendae.moeunt/',
-    line:'http://line.me/ti/p/~novrida_ooyae',
-    instagram:'https://www.instagram.com/wurinopridamunthe/'
+    face: 'img/m5.jpg',
+    np: 'Love yourself',
   }, {
     id: 5,
-    name: 'Hanny Rosharliansyah',
+    name: 'Little Miz',
     lastText: 'Happy birthday eki semoga panjang umur, sehat selalu, semoga lebih baik kedepannya dan semoga langgeng juga sama teh tya nya jangan berantem2 mulu yahh rukun2 .. amiinn 😇🎉🎁',
     status: 'Mahasiswi, 20th',
-    face: 'img/user/hanny.png',
-    time: 'Senin 21 Maret 2016    14.04',
-    facebook:'https://www.facebook.com/hanny.rosharliansyah/',
-    line:'http://line.me/ti/p/~hannyros14',
-    instagram:'https://www.instagram.com/hannyros/'
+    face: 'img/m6.jpg',
+    np: 'Love me Like You Do',
+
   }, {
     id: 6,
-    name: 'Dwi Darmawan Ramadhan',
+    name: 'Last Child',
     lastText: 'Eki selamat ulang tahun, semoga di umur yang ke 20 jangan sampe yang macem", jagain pacarnya, jangan selingkuh, inget lebih mementingkan kepentingan kelompok (organisasi) ketimbang pribadi hehehe,urusin himpunan jangan main mulu hehehe semoga semuanya kecapai AMIN YA RABBAL ALAMIN',
     status: 'Mahasiswa, 21th',
-    face: 'img/user/dwi.png',
-    time: 'Senin 21 Maret 2016    14.18',
-    facebook:'https://www.facebook.com/koesoeng.sewelehweleh/',
-    line:'http://line.me/ti/p/~Koesoeng7',
-    instagram:'https://www.instagram.com/koesoeng7/'
+    face: 'img/m7.jpg',
+    np: 'Surat Cinta Untuk Starla',
+
   },{
     id: 7,
-    name: 'Nurfitria Khoirunnisa',
+    name: 'Geisha',
     lastText: 'Hallo eki. Sanah helwah. Barakallahu fii umrik ya🎂🎁🎉 Eciee 20 taun ya. Kita seumuran skrg haha. Semoga umur nya berkah, jadi pribadi yang lebih baik lagi, semangat dan sukses ya. Rajin2 ya ki, titip himatif, temen2, sama adik2 nya. Eh satu lagi semoga jodoh sama teh thiya nya, jgn sering2 berantem, apalagi perang di timeline line ✌',
     status: 'Mahasiswi, 20th',
-    face: 'img/user/ica.png',
-    time: 'Senin 21 Maret 2016    14.36',
-    facebook:'https://www.facebook.com/nurfitria.khoirunnisa/',
-    line:'http://line.me/ti/p/~nurfitriakh',
-    instagram:'https://www.instagram.com/nurfitriakh11//'
-  }, {
-    id: 8,
-    name: 'Reza Arifiansyah',
-    lastText: 'sugeng tanggap warsa kaping 20th. Mugi-mugi rejekinipun lancar, dadi anak sing bakti kange orang tua. Amiin ... wish you all the best',
-    face: 'img/user/reza.png',
-    status: 'Programmer, 24th',
-    time: 'Senin 21 Maret 2016    15.51',
-    facebook:'https://www.facebook.com/reza.arifiansyah/',
-    line:'http://line.me/ti/p/~',
-    instagram:'https://www.instagram.com/reza.arifiansyah/'
-  }, {
-    id: 9,
-    name: 'Nurlinda Agustina',
-    lastText: 'Selamat hari lahir Eki panjang umur & sehat selalu, dimudahkan dan dilancarkan segala urusannya, Semangat kuliahnya biar cepat SIANIDA sama Liestiya yaaaaa 😁😁',
-    status: 'Mahasiswi, 21th',
-    face: 'img/user/linda.png',
-    time: 'Senin 21 Maret 2016    16.00',
-    facebook:'https://www.facebook.com/linda.c.kyuhyun',
-    line:'http://line.me/ti/p/~nurlinda_agustina',
-    instagram:'https://www.instagram.com/nurlindaagustina/'
-  },{
-    id: 10,
-    name: 'Rezka Afriyanti',
-    lastText: 'Happy birthday eki kesuma muhammad, I hope your day the next day happier and hopeful, hopefully what you aspire goals achieved and healthy always.',
-    status: 'Mahasiswi, 20th',
-    face: 'img/user/rezka.png',
-    time: 'Selasa 22 Maret 2016    07.22',
-    facebook:'https://www.facebook.com/',
-    line:'http://line.me/ti/p/~rezkaaf', 
-    instagram: 'https://www.instagram.com/reskaafri/'
-   },{
-    id: 11,
-    name: 'Syahlan Pitoyo',
-    lastText: 'Selamat ulangtahun Ecchi alias Eki, moga jadi anak yg berbakti dan bisa jadi kebanggaan semua orang...Langgeng ya sama kakak uchung yg baik hati, tidak sombong dan rajin menabung *party* *Rotfl*',
-    status: 'Mahasiswa, 22th',
-    face: 'img/user/syahlan.png',
-    time: 'Selasa 22 Maret 2016    07.39',
-    facebook:'https://www.facebook.com/sang.syahlan.1',
-    line:'http://line.me/ti/p/~syahlan',
-    instagram:''
-  },{
-    id: 12,
-    name: 'Anggi Sholihatus',
-    lastText: 'Happy birthday eki, keep longlife. i wish you luck and happy today, tomorrow and beyond',
-    status: 'Mahasiswi, 19th',
-    face: 'img/user/anggi.png',
-    time: 'Selasa 22 Maret 2016    10.48',
-    facebook:'https://www.facebook.com/anggy.sadiah',
-    line:'http://line.me/ti/p/~angshol',
-    instagram:'https://www.instagram.com/angshol/'
-  }, {
-    id: 13,
-    name: 'Ilyas Yasin Permana',
-    lastText: 'HBD brother yang kocak . yang baik sejawa hahaha . semoga hari ini menjadi dewasa bro . rizkina dilimpahkan . dan menjadi sahabar sejati buat kita kita broo . jangan lupa traktiran nya bro kwkwkw =d *party* *Fist* *Fistbump* *Gifts*',
-    status: 'Mahasiswa, 20th',
-    face: 'img/user/ilyas.png',
-    time: 'Selasa 22 Maret 2016    20.16',
-    facebook:'https://www.facebook.com/brutaldeadth.secumbagcmpepaehsalamna',
-    line:'http://line.me/ti/p/~ilyasyasin8',
-    instagram:'https://www.instagram.com/ilyasyasin8/'
-  },{
-    id: 14,
-    name: 'Agung suryana',
-    lastText: 'Happy birthday to my best friend eki kesuma *party*  , hopefully more mature *old*  , more clever *Study*  and longlast with your girlfriend =-)< =-)<',
-    status: 'Mahasiswa, 20th',
-    face: 'img/user/Agung.png',
-    time: 'Selasa 22 Maret 2016    22.01',
-    facebook:'https://www.facebook.com/agungskaboy',
-    line:'http://line.me/ti/p/~',
-    instagram:'https://www.instagram.com/agungsryn77/'
-  }, {
-    id: 15,
-    name: 'Nurpazrina',
-    lastText: 'Selamat ulang tahun eki kesuma panjang umur sehat selalu dimudahkan rezekinya pokoknya buat eki segalanya ajaa yang terbaik buat eki yaaa langgeng sama teh liestiyanyaaa semua yang eki ingin tercapai sukses dunia akhirat wyatb aminn',
-    status: 'Mahasiswi, 20th',
-    face: 'img/user/nunu.png',
-    time: 'Rabu 23 Maret 2016    15.40',
-    facebook:'www.facebook.com/azin.sayang.mamah',
-    line:'http://line.me/ti/p/~nurpazrina',
-    instagram:'https://www.instagram.com/nurpazrina/'
-  }, {
-    id: 16,
-    name: 'Agia Nisa Lutfiah',
-    lastText: 'Happy birthday kakak eki 😁.urg gatau ki umur km tp km kan pacaran sama tth aku jd aku panggil kakak ajalah biar kelytan tua gtu km nya ya ki 😁. Selamat menempuh kehidupan yg makin tua makin keras .jangan nyerah dikasih tgs banyak jangn sensi terus .akur terus sama teh ucung 😗.didoainlah apa yg km inginkan tercapai .amin.tp doain aku jg bisa deket sama s ganteng aku wkwkwkw .ki pusing euy bilang apa pokona hbd panjang umur sehat terus semangat terus.jangn bosen ulang tahun .jangan lupa ajak aku mampir ke ramen itung2 kenang2an ultah gitu deh ya 😌hihi udah we sukses bray',
-    status: 'Mahasiswi, 19th',
-    face: 'img/user/agia.png',
-    time: 'Rabu 23 Maret 2016    22.03',
-    facebook:'https://www.facebook.com/profile.php?id=100004131137362&fref=ts',
-    line:'http://line.me/ti/p/~nurlinda_agustina',
-    instagram:'https://www.instagram.com/agianisaa/'
-  },{
-    id: 17,
-    name: 'Dede muhammad Yusuf',
-    lastText: 'Selamat ulang tahun javaaa, semoga jadi orang yg beguna bagi nusa bangsa dan agama dan hapal pancasila 😂',
-    status: 'Mahasiswa, 20th',
-    face: 'img/user/dede.png',
-    time: 'Kamis 24 Maret 2016    11.19',
-    facebook:'https://www.facebook.com/dedexrezpector/',
-    line:'http://line.me/ti/p/~',
-    instagram:'https://www.instagram.com/dedemyusuf_/'
-  }, {
-    id: 18,
-    name: 'Khaera Tunnisa',
-    lastText: 'Happy birthday ekiii alay..semoga langgeng sama teh tya..semoga eki kuliahnya lancar..eki semangat di himpunan *party* *party* *party* *party* *party* *party* *party* *party* *par',
-    status: 'Mahasiswi, 20th',
-    face: 'img/user/Khaera.png',
-    time: 'Jumat 25 Maret 2016   22.17',
-    facebook:'https://www.facebook.com/profile.php/',
-    line:'http://line.me/ti/p/~Khaeratunnisa',
-    instagram:'https://www.instagram.com/khaera.tunnisa/'
-  }, {
-    id: 19,
-    name: 'Tri Budiarti',
-    lastText: 'Selamat tambah tua yg ke20 thn eki *party* panjang umur, murah rejeki, tambah ibadahnya, lancar kuliahnya, tambah sayang juga sama teh T nya:D pokoknya doanya yg baik" dah, barakallah fii umrik yah\=D/ jgan lupa traktirannya ditunggu',
-    status: 'Mahasiswi, 21th',
-    face: 'img/user/tri.png',
-    time: 'Jumat 25 Maret 2016    22.35',
-    facebook:'https://www.facebook.com/trie.meneh/',
-    line:'http://line.me/ti/p/~tribudiarti11',
-    instagram:'https://www.instagram.com/tribudiarti11/'
-  },{
-    id: 20,
-    name: 'Ryan Septio',
-    lastText: 'Happy birthday eki, semoga panjang umur dan sehat selalu.. Langgeng terus sampai hari tua sama teh langsing.. Amin 😄😄 belajar dota lg ki, biar ga noob haha.. Teraktir ditunggu 😊',
-    status: 'Mahasiswa, 20th',
-    face: 'img/user/ryan.png',
-    time: 'Jumat 25 Maret 2016    23.42',
-    facebook: 'https://www.facebook.com/RyanSeptio/',
-    line:'http://line.me/ti/p/~ryanseptio',
-    instagram:'https://www.instagram.com/ryanseptio/'
-  }, {
-    id: 21,
-    name: 'Nur Mulyana Mustari',
-    lastText: 'Eki kesuma muhammad, selamat tambah tua. Semoga jadi pribadi yang lebih baik lagi, lancar kuliahnya, lancar rejekinya, semangat di himpunan, semangat dan sukses ketuplak it days 2016 ',
-    status: 'Mahasiswi, 20th',
-    face: 'img/user/uli.png',
-    time: 'Sabtu 26 Maret 2016    09.30',
-    facebook:'https://www.facebook.com/Nur.mulyana.02?fref=ts',
-    line:'http://line.me/ti/p/~nurmulyana',
-    instagram:'https://www.instagram.com/nurmulyana/'
-  },{
-    id: 22,
-    name: 'Adly Asirof',
-    lastText: 'Semoga Dengan Bertambahnya Usia Menjadikan mnh Insan Yang Mulia, Semakin Disayang Allah Dan Menyayangi Allah, Semakin Umurnya Berkah, Pahalanya Bertambah, Segala Urusan Dipermudahkan Allah. Selamat ulang tahun',
-    status: 'Mahasiswa, 19th',
-    face: 'img/user/adli.png',
-    time: 'Senin 28 Maret 2016    22.07',
-    facebook: 'https://www.facebook.com/adliasirof/',
-    line:'http://line.me/ti/p/~Adliasirof',
-    instagram:'https://www.instagram.com/adliasirof/'
-  }, {
-    id: 23,
-    name: 'Adityo Suma Pratama',
-    lastText: 'Selamat ulang tahun eki.. Semoga panjang umur sehat selalu. Lancar rezekinya di mudahkan urusannya di berikan kesabarannya. Amin...',
-    status: 'Mahasiswa, 22th',
-    face: 'img/user/adityo.png',
-    time: 'Selasa 29 Maret 2016    11.35',
-    facebook:'https://www.facebook.com/',
-    line:'http://line.me/ti/p/~adityosp',
-    instagram:'https://www.instagram.com/adityo_pratama/'
-  },{
-    id: 24,
-    name: 'Fitriani',
-    lastText: 'Happy berdhday eki, selamat tambah tua yah, sehat selalu, rezeky nya d lancarkan, urusannya d mudahin, semangat di HIMATIF14 yahhh,,,,,, *party* *party* \=d/ \=d/ *Gift* *Gift* *Bday* *Bday* *Bday* Ehhhhhhh satu lagi,,,, mudah2an hubungannya lebih langgeng yahhhhh,, aminnnnn=-)< =-)< =-)<',
-    status: 'Mahasiswi, 20th',
-    face: 'img/user/fitri.png',
-    time:'Selasa 29 Maret 2016    18.15',
-    facebook: '',
-    line:'http://line.me/ti/p/~',
-    instagram:'/'
-  }, {
-    id: 25,
-    name: 'Ayu Anggara',
-    lastText: 'Selamat ulang tahun Ekiii.. Many happy returns of the day! Semoga semua harapannya tercapai. Semangat himpunan dan hm.. Langgeng hubungannya sama kakak L 😂  Aamiin. 🙏', status: 'Mahasiswi, 20th',
-     status: 'Mahasiswi, 19th',
-    face: 'img/user/ayu.png',
-    time: 'Selasa 29 Maret 2016    18.39',
-    facebook:'',
-    line:'http://line.me/ti/p/~ayu_anggara24',
-    instagram:'https://www.instagram.com/ayu_anggara24/'
-  },{
-    id: 26,
-    name: 'Nurila Faradila Irfan',
-    lastText: 'Happy birthday ekii 🎂🎉🎈. Sehat selalu, panjang umur, pokonya mahh doa terbaik buat kamu. Langgeng yahh ama teteh cantik aku😊.',
-     status: 'Mahasiswa, 19th',
-    face: 'img/user/ila.png',
-    time: 'Senin 28 Maret 2016    22.30',
-    facebook: 'https://www.facebook.com/ilafrdila/',
-    line:'http://line.me/ti/p/~ilafrdila',
-    instagram:'https://www.instagram.com/ilafrdila/'
+    face: 'img/m7.jpg',
+    np: 'Lagu Cinta',
+
   }];
 
   return {
@@ -532,45 +323,45 @@ angular.module('gooeyApp.services', [])
   // Some fake testing data
   var plays = [{
     id: 1,
-    name: 'Heeya - 생일축하합니다 (saengil chukha hamnida)',
-    url: '/media/kor.mp3', 
-    time: '1:31',
+    name: 'Isyana Saraswati - Keep Being You',
+    url: '/media/IS.mp3', 
+    time: '3:19',
     face: 'img/project/29mar.png'
   },{
     id: 2,
-    name: 'Katy Perry - Happy Birthday',
-     url: '/media/kape.mp3',
+    name: 'Mnek & Zara Larsson - Never Forget You',
+     url: '/media/mnek.mp3',
      time: '3:22',
      face: 'img/project/1mar.png'
   },{
      id: 3,
-     name: 'JKT48 - Namida Surprise',
-     url: '/media/jkt.mp3',
-     time: '4:40',
+     name: 'Rachel Plattern - Fight Song',
+     url: '/media/rp.mp3',
+     time: '3:22',
      face: 'img/project/1mar.png'
   },{
     id: 4,
-    name: 'Happy Birthday To You - Arabic Song',
-    url: '/media/arab.mp3', 
-    time: '2:59',
+    name: 'Rihanna - Diamonds',
+    url: '/media/rihn.mp3', 
+    time: '3:45',
     face: 'img/project/29mar.png'
   },{
     id: 5,
-    name: 'Malial R. - Happy Birthday',
-    url: '/media/malial.mp3', 
-    time: '1:30',
+    name: 'Justin Beiber - Love Youself',
+    url: '/media/jb.mp3', 
+    time: '4:13',
     face: 'img/project/29mar.png'
   },{
     id: 6,
-    name: 'Traditional Remix - Happy Birthday To You',
-    url: '/media/arab.mp3', 
-    time: '2:59',
+    name: 'Last Child - Surat Cinta Untuk Starla',
+    url: '/media/lc.mp3', 
+    time: '5:08',
     face: 'img/project/29mar.png'
   },{
     id: 7 ,
-    name: 'Ten2Five - Happy Birthday',
-    url: '/media/ten.mp3',
-    time: '2:16',
+    name: 'Geisha - Lagu Cinta',
+    url: '/media/geisha.mp3',
+    time: '4:00',
     face: 'img/project/29feb.png'
   }];
 

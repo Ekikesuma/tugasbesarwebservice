@@ -47,7 +47,7 @@ angular.module('gooeyApp', ['ionic', 'gooeyApp.controllers', 'gooeyApp.directive
     views: {
       'tab-days': {
         templateUrl: 'templates/tab-days.html',
-        controller: 'DaysCtrl'
+        controller: 'ChatsCtrl'
       }
     }
   })
@@ -93,13 +93,13 @@ angular.module('gooeyApp', ['ionic', 'gooeyApp.controllers', 'gooeyApp.directive
     views: {
       'tab-login': {
         templateUrl: 'templates/tab-login.html',
-        controller: 'LoginCtrl'
+        controller: 'AccountCtrl'
       }
     }
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/login');
+  $urlRouterProvider.otherwise('/tab/account');
 
   //place tabs at bottom for all platforms
   $ionicConfigProvider.tabs.position('bottom');
